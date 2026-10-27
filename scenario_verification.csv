@@ -1,0 +1,8 @@
+scenario,I,S,P,O,expected_A,computed_A,passed
+Legitimate authorised supervisory command,1,1,1,1,1,1,1
+Credential compromise with failed device verification,0,1,1,1,0,0,1
+Authentication-token replay with invalid session binding,1,0,1,1,0,0,1
+Session hijacking with failed integrity verification,1,0,1,1,0,0,1
+Privilege misuse beyond approved task scope,1,1,0,1,0,0,1
+Command prohibited under current operational state,1,1,1,0,0,0,1
+Operational-state information unavailable or unreliable,1,1,1,0,0,0,1

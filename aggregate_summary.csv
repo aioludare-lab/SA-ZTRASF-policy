@@ -1,0 +1,4 @@
+configuration,adversarial_requests,adversarial_denied,adversarial_rejection_pct,legitimate_requests,legitimate_permitted,legitimate_permission_pct
+Conventional authenticated access,2500,500,20.0,500,500,100.0
+Simplified Zero Trust,2500,2000,80.0,500,500,100.0
+SA-ZTRASF,2500,2500,100.0,500,500,100.0

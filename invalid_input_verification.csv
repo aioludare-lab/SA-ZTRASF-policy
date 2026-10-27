@@ -1,0 +1,5 @@
+case,inputs,expected,observed,passed
+nonbinary integer,"(2, 1, 1, 1)",ValueError,ValueError raised,1
+negative integer,"(-1, 1, 1, 1)",ValueError,ValueError raised,1
+string value,"('1', 1, 1, 1)",ValueError,ValueError raised,1
+missing value,"(None, 1, 1, 1)",ValueError,ValueError raised,1
